@@ -5,8 +5,8 @@ BRG-31 Lab Activities
 
 Lab 1a Complete
 Reflection Questions:
-Q1: Which file editors are best for remote access and why?
 
+Q1: Which file editors are best for remote access and why?
 VS Code is best for general remote access because it supports SSH, has an integrated terminal and offers useful development tools and extensions. Vim and Nano are also useful for editing files directly through a remote Linux terminal, especially on servers due to their lightweight nature.
 
 Q2: Compare software installation methods: SaaS vs binaries vs repositories vs source code.

@@ -1,9 +1,24 @@
 # BRG-31-ISEA-Labs
 
-BRG-31 Lab Activities 
+BRG-31 Lab Activities
 
+Lab 1a-1 Reflection Questions:
+Q1: What challenges did you encounter during the virtual machine setup?
+I was not used to the UI for creating a VM as I was more used to VMWare's UI. However, this challenge was not hard to overcome.
 
-Lab 1a Reflection Questions:
+Q2: What did you learn about virtualisation tools and their differences?
+I learned that tools like VirtualBox, VMware and UTM allow users to run different operating systems on a single computer. They may vary in performance, compatibility and available features.
+
+Q3: How confident do you feel using Ubuntu after completing this lab?
+I feel quite confident navigating Ubuntu, performing basic operations and understanding how to install and configure a Linux environment. However, I still need more time to practice CLI as it is not always the most intuitive.
+
+Q4: In what ways can a virtualised Linux environment help in industry scenarios?
+It allows developers and IT professionals to test applications, run servers and experiment with different operating systems without affecting their main system. It also provides a more cost-effective option for development and testing.
+
+Q5: What would you do differently if setting up another VM?
+I would plan the resource allocation beforehand. I would also ensure my network settings are pre-configured correctly.
+
+Lab 1a-2 Reflection Questions:
 
 Q1: Which file editors are best for remote access and why?
 VS Code is best for general remote access because it supports SSH, has an integrated terminal and offers useful development tools and extensions. Vim and Nano are also useful for editing files directly through a remote Linux terminal, especially on servers due to their lightweight nature.
@@ -30,3 +45,18 @@ Compression reduces file sizes, saving storage space and making file transfers f
 
 Q4: How does user privilege management help secure systems?
 It limits user access based on their permissions, preventing unauthorized changes and reducing security risks stemming from malicious intended access or accidental access.
+
+Lab 1b-2 Reflection Questions:
+
+Q1: How do Linux permissions differ from Windows ACL?
+Linux uses read, write and execute permissions assigned to the file owner, group and others whereas Windows ACL provides more detailed control by allowing specific permissions to be assigned to individual users and groups. This is due to how Linux prioritizes simplicity and efficient permissions management in server environments over Windows' more flexible and complex environments where different users require varying levels of access or permissions.
+
+Q2: What's the effect of chmod 770 vs 750?
+770 gives the owner and their group full permissions to read, write, and execute. 0 refers to the access permissions given to others, which is none/deny.
+750 gives the owner full rwx permissions, their group read and execute permissions, and deny all for others.
+
+Q3: What is the risk of adding users to the sudo group?
+Users in the sudo group can execute commands with administrative privileges. If it is misused or its security is compromised, they could modify system files or processes, access sensitive information, or damage the system completely.
+
+Q4: Why is it important to verify with su and whoami?
+su stands for switch user, and it is an important command to allow you to select which user you want to execute a command with. whoami confirms which user you're currently active on, which is important to run before important commands to ensure that you're on the intended user.

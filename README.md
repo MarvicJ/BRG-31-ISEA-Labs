@@ -60,3 +60,17 @@ Users in the sudo group can execute commands with administrative privileges. If 
 
 Q4: Why is it important to verify with su and whoami?
 su stands for switch user, and it is an important command to allow you to select which user you want to execute a command with. whoami confirms which user you're currently active on, which is important to run before important commands to ensure that you're on the intended user.
+
+Lab 1b-3 Reflection Questions:
+
+Q1: Which command-line tool was the most useful in solving the questions?
+I found grep the most useful because it allowed me to search for specific words and phrases across multiple text files quickly. It made locating relevant information much easier.
+
+Q2: How might these search tools help in cybersecurity investigations?
+Tools like find and grep help investigators locate suspicious files, search for malicious code or keywords, and identify important information in system logs. They make analysing large amounts of data more efficient.
+
+Q3: How could scripting improve repetitive search tasks?
+Scripting can automate repetitive commands, allowing multiple files and directories to be searched automatically. This saves time, reduces human error and makes the investigation process more consistent.
+
+Q4: What limitations did you encounter using grep and find?
+grep may struggle with binary files, complex search patterns or different text formats. find can also return too many results when searching large directories, making it harder to identify relevant files. Both tools require familiarity with command syntax to use effectively.

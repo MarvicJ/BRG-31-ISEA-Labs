@@ -79,17 +79,17 @@ Lab 2a-2 Reflection Questions:
 
 <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/240e70f3-af8d-4c59-8265-b3ae794f6f56" />
 
-Q1: What were the benefits of cloud deployment over local virtualisation?
+Q1: What were the benefits of cloud deployment over local virtualisation? 
 Cloud deployment allows servers to be accessed from anywhere with an internet connection without relying on personal computer resources. It also offers scalability, flexibility and easier resource management compared to running a local virtual machine.
 
-Q2: How does Apache serve files, and how did you verify this?
+Q2: How does Apache serve files, and how did you verify this? 
 Apache acts as a web server that receives HTTP requests from users and delivers the requested website files, such as HTML, CSS and images. I verified this by entering the EC2 instance's public IP address into a browser and checking that my webpage loaded successfully.
 
-Q3: What did you learn about file ownership and permissions?
+Q3: What did you learn about file ownership and permissions? 
 I learned that Linux uses file ownership and permissions to control who can read, write or execute files. I also learned that administrative privileges using sudo may be required to modify protected directories such as /var/www/html/.
 
-Q4: What risks are associated with leaving instances running?
+Q4: What risks are associated with leaving instances running? 
 Leaving EC2 instances running can result in unnecessary AWS charges, even when they are not being used. It can also create security risks if the instance is not properly configured or maintained. Therefore, unused instances should be stopped or terminated.
 
-Q5: How would you explain the difference between DNS and /etc/hosts to a client?
+Q5: How would you explain the difference between DNS and /etc/hosts to a client? 
 DNS translates domain names into IP addresses using a network-wide naming system, allowing users to visit websites/servers using memorable and readable names, whereas /etc/hosts is a local file that manually maps domain names to IP addresses on an individual computer. DNS provides name resolution across networks, while /etc/hosts provides local name resolution and can override DNS results.

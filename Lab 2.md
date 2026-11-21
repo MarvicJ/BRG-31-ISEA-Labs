@@ -20,7 +20,6 @@ Using Duck DNS to Host my Apache Page:
 Lab 2b-2:
 Hello World script:
 <img width="642" height="566" alt="image" src="https://github.com/user-attachments/assets/0ad67107-20b0-4e54-afb5-bf4e1753e168" />
-Reflection Q1: What is the purpose of the chmod +x command?
 
 System Info script:
 <img width="642" height="566" alt="image" src="https://github.com/user-attachments/assets/b01138dc-c58b-4572-8c55-8aed71179fdf" />

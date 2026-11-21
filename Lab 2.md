@@ -14,10 +14,16 @@ Q6: What output does free -h show? It displays the system's memory usage, includ
 
 Q7: How would you monitor network bandwidth in a Bash script? I could use commands such as vnstat or ifstat to monitor network traffic and measure upload and download speeds. A Bash script could run these commands at regular intervals using a while loop and sleep to track bandwidth usage over time.
 
-Using Duck DNS to Host my Apache Page: image
+Using Duck DNS to Host my Apache Page:
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/04ccd104-6445-4d6b-9cde-e48205bc520d" />
 
-Lab 2b-2: Hello World script: image Reflection Q1: What is the purpose of the chmod +x command?
+Lab 2b-2:
+Hello World script:
+<img width="642" height="566" alt="image" src="https://github.com/user-attachments/assets/0ad67107-20b0-4e54-afb5-bf4e1753e168" />
+Reflection Q1: What is the purpose of the chmod +x command?
 
-System Info script: image
+System Info script:
+<img width="642" height="566" alt="image" src="https://github.com/user-attachments/assets/b01138dc-c58b-4572-8c55-8aed71179fdf" />
 
-System Monitoring: image
+System Monitoring:
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/c4f8ea9c-5056-42ba-a35c-1582ed1b7c83" />

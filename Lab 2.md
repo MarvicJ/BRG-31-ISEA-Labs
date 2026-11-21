@@ -30,7 +30,7 @@ System Monitoring:
 
 Lab 2b-2 Reflection Questions: 
 What command did you use to create a new directory? 
-mkdir is the command that is used to create directories.
+mkdir is the command that is used to create directories. mkdir -p creates a directory and all missing parent folders needed to create the path.
 
 How can you view the contents of a file without opening it in a GUI besed text editor? 
 Use the 'cat' command to print the whole text file. 'less' to scroll through longer files, or 'head'/'tail' to inspect the first or last lines.
